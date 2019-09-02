@@ -1,0 +1,2 @@
+- Se agrego DHCP a las pc
+- Se configuro ip y la mascara de red en el router
