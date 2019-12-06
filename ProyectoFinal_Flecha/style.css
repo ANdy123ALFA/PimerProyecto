@@ -1,0 +1,242 @@
+body{
+	margin: 0px;
+	position:absolute;
+	top:0px;
+	left: 0px;
+	width:100%;
+	}
+header{
+	display:inline-block;
+	text-align: center;
+	background:#111111;
+	width:100%;
+	height:10%;
+	color:#FFFFFF;
+	left: 0; 
+	top: 0; 
+	position: fixed;
+	z-index:2;
+}
+section{
+	padding-top: 50px;
+	display:inline-block;
+	width:100%;
+	height:100%;
+	background:#EEEEEE;
+	z-index:1;
+}
+footer{
+	background:#000000;
+	color: #999;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 15px  20px;
+}
+.contenedor{
+	text-align: center;
+	width:90%;
+}
+.contenedor_articulo{
+	text-align: center;
+	display:inline-block;
+	position: relative;
+	padding: 15px;
+	width: 450px;
+	height: 450px;
+}
+.contenedor_imagen{
+	cursor: pointer;
+}
+.descripcion_articulo{
+	margin-top: 225px;
+	margin-left: 0px;
+	width:450px;
+	background: #262626;
+	visibility:hidden;
+	position:absolute;
+	top:15px;
+	left:15px;
+	color: #efb810;
+}
+.contenedor_articulo:hover .descripcion_articulo{
+    background: #262626;
+	transition: visibility 3s;
+	visibility: visible;
+}
+.boton{
+	width:130px;
+	height:40px;
+	background:#FFFFFF;
+	color: #efb810;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+	outline:none;
+}
+.titulo_header{
+	padding-top:4px;
+	text-align:center;
+	float: left;
+	padding-left:35%;
+}
+.contenedor_header{
+	text-align: center;
+	padding: 5px;
+}
+.contenedor_boton{
+	padding-top:1%;
+	padding-right: 2%;
+	float: right;
+}
+.boton:hover {
+	background:#444444;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.imagen_relojito{
+	padding-top: 3px;
+	padding-left: 2%;
+	float: left;
+}
+.contenedor_formulario{
+	background:#DDDDDD;
+	text-align: center;
+	height:400px;
+	width:400px;
+	padding:50px;
+	margin-top: 70px;
+	margin-bottom:100px;
+	margin-left:35%;
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    border-radius: 5px;
+    display: table;
+    position: static;
+	font-size: 30px;
+    font-weight: 300;
+}
+.text_boxs{
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	color: #111111;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+	border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+	height:35px;
+}
+
+.txtbox{
+	text-align: center;
+	margin-top: 10px;
+	width: 20%;
+	color: #111111;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+	border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+	height:35px;
+}
+.checkbox {
+	
+};
+.cargar{
+	width: 20%;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid;
+    display: table;
+    position: static;
+    clear: both;
+}
+.carga{
+	background:#DDDDDD;
+	padding:50px;
+}
+.submit{
+	width:100%;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid;
+    display: table;
+    position: static;
+    clear: both;
+}
+.submit:hover{
+	background:#BBBBBB;
+	cursor: pointer;
+}
+.cargar:hover{
+	background:#BBBBBB;
+	cursor: pointer;
+}
+.tabla_administrar{
+	text-align: center;
+	padding:25px;
+	margin-top: 70px;
+	border:2px solid #efb810;
+	width:85%;
+}
+td{
+	border:1px solid #FFFFFF;
+	text-align: center;
+}
+
+.boton_actualizar{
+	width:130px;
+	height:30px;
+	background:#FFFFFF;
+	color: #efb810;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+	outline:none;
+}
+
+.boton_borrar{
+	width:130px;
+	height:30px;
+	background:#FFFFFF;
+	color: #efb810;
+	padding:1px;
+	border:none;
+	margin-bottom:0px;
+	outline:none;
+}
+
+.boton_borrar:hover{
+	background:#444444;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.boton_actualizar:hover{
+	background:#444444;
+	color:#FFFFFF;
+	cursor: pointer;
+}
